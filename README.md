@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/debugflow8/laravel-ai-monitor.svg)](https://packagist.org/packages/debugflow8/laravel-ai-monitor)
 [![License](https://img.shields.io/packagist/l/debugflow8/laravel-ai-monitor.svg)](LICENSE)
 
-**By:** [debugflow8 — debugflow8.com](https://debugflow8.com)
+**By:** [debugflow8 — debugflow.com](https://debugflow.com)
 **Works on:** Laravel **8, 9, 10, 11, 12 and 13** · PHP **8.0+**
 
 ---
@@ -524,4 +524,4 @@ The package ships with a full suite (HTTP fully mocked — no network needed) co
 
 ## License
 
-MIT © [debug flow](https://debugflow8.com)
+MIT © [debug flow](https://debugflow.com)
