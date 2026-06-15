@@ -1,0 +1,66 @@
+{
+    "name": "debugflow8/laravel-ai-monitor",
+    "description": "Audit any Composer/Packagist package before you install it: a transparent 0-100 health score (maintenance, community, usage, stability, security), Laravel version compatibility, trustworthy alternatives, and an optional AI verdict — straight from your Artisan console.",
+    "keywords": [
+        "laravel",
+        "composer",
+        "package",
+        "health",
+        "score",
+        "audit",
+        "packagist",
+        "github",
+        "dependencies",
+        "ai",
+        "cli",
+        "artisan"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://debugflow.com",
+    "support": {
+        "issues": "https://github.com/imabbas8/laravel-ai-monitor/issues",
+        "source": "https://github.com/imabbas8/laravel-ai-monitor"
+    },
+    "authors": [
+        {
+            "name": "Abbas Aslam",
+            "email": "imabbasaslam8@gmail.com",
+            "homepage": "https://debugflow.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "composer/semver": "^3.0",
+        "illuminate/console": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Debug\\AiHealth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Debug\\AiHealth\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Debug\\AiHealth\\AiHealthServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
