@@ -2,11 +2,11 @@
 
 > Check the **health** of any PHP/Laravel package *before* you install it — a 0–100 score from live Packagist + GitHub data, with an optional plain-language AI verdict from **any** AI provider.
 
-[![Latest Version](https://img.shields.io/packagist/v/debugflow8/laravel-ai-monitor.svg)](https://packagist.org/packages/debugflow8/laravel-ai-monitor)
-[![Total Downloads](https://img.shields.io/packagist/dt/debugflow8/laravel-ai-monitor.svg)](https://packagist.org/packages/debugflow8/laravel-ai-monitor)
-[![License](https://img.shields.io/packagist/l/debugflow8/laravel-ai-monitor.svg)](LICENSE)
+[![Latest Version](https://img.shields.io/packagist/v/laravel-ai-monitor/laravel-ai-monitor.svg)](https://packagist.org/packages/laravel-ai-monitor/laravel-ai-monitor)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel-ai-monitor/laravel-ai-monitor.svg)](https://packagist.org/packages/laravel-ai-monitor/laravel-ai-monitor)
+[![License](https://img.shields.io/packagist/l/laravel-ai-monitor/laravel-ai-monitor.svg)](LICENSE)
 
-**By:** [debugflow8 — debugflow.com](https://debugflow.com)
+**By:** [laravel-ai-monitor — debugflow.com](https://debugflow.com)
 **Works on:** Laravel **8, 9, 10, 11, 12 and 13** · PHP **8.0+**
 
 ---
@@ -53,7 +53,7 @@ No API keys are needed for the core score — only the optional AI verdict needs
 ## Install
 
 ```bash
-composer require debugflow8/laravel-ai-monitor
+composer require laravel-ai-monitor/laravel-ai-monitor
 ```
 
 The service provider is auto-discovered — no manual registration needed.
@@ -211,14 +211,14 @@ cd health-test
 
 ```bash
 # 3. Pull the package in from your local path
-composer require debugflow8/laravel-ai-monitor:@dev
+composer require laravel-ai-monitor/laravel-ai-monitor:@dev
 
 # 4. Run the real command (live Packagist + GitHub)
 php artisan package:health spatie/laravel-permission
 php artisan package:health laravel/framework --json
 ```
 
-Once the package is published to Packagist, end users skip the `repositories` step and just `composer require debugflow8/laravel-ai-monitor`.
+Once the package is published to Packagist, end users skip the `repositories` step and just `composer require laravel-ai-monitor/laravel-ai-monitor`.
 
 ---
 

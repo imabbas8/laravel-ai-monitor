@@ -1,5 +1,5 @@
 {
-    "name": "debugflow8/laravel-ai-monitor",
+    "name": "laravel-ai-monitor/laravel-ai-monitor",
     "description": "Audit any Composer/Packagist package before you install it: a transparent 0-100 health score (maintenance, community, usage, stability, security), Laravel version compatibility, trustworthy alternatives, and an optional AI verdict — straight from your Artisan console.",
     "keywords": [
         "laravel",
